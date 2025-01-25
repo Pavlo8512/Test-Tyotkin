@@ -1,0 +1,4 @@
+git clone https://github.com/<Pavlo8512>/<Test-Tyotkin>.git 
+cd <Test-Tyotkin>
+git checkout -b dev
+git push -u origin dev
