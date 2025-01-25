@@ -2,3 +2,11 @@ git clone https://github.com/<Pavlo8512>/<Test-Tyotkin>.git
 cd <Test-Tyotkin>
 git checkout -b dev
 git push -u origin dev
+git checkout dev
+mkdir -p .github
+nano .github/CODEOWNERS
+*.yml @online-marathon
+*.yaml @online-marathon
+git add .github/CODEOWNERS
+git commit -m "Add CODEOWNERS for YAML files"
+git push origin dev
